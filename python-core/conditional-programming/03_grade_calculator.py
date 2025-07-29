@@ -1,6 +1,10 @@
 # Assign a letter grade based on a student's score: A(90-100), B(80-89), C(70-79), D(60-69), F(below 60)
 
-score = 80
+score = 180
+
+if score >= 101:
+    print("Please verify your grade again")
+    exit()
 
 if score >= 90:
     grade = "A"
